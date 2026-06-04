@@ -1,6 +1,9 @@
 # Signwave 🤟
 
 **Signwave** is a deep learning-powered system that translates Indian Sign Language (ISL) sentence videos into text and audio, bridging the communication gap for hearing and speech-impaired individuals.
+
+> 📄 Published Research — IEEE DISCOVER 2025 | [DOI: 10.1109/DISCOVER66922.2025.11259040](https://doi.org/10.1109/DISCOVER66922.2025.11259040)
+
 ---
 
 ## What It Does
@@ -166,8 +169,22 @@ Training and architecture details are in `cnn_vit_model.ipynb`. Preprocessing st
 - Model path is hardcoded; should be made configurable via environment variable
 - Real-time webcam streaming inference not yet implemented
 - No authentication or rate limiting on the prediction endpoint
+
+---
+
+## Publication
+
+This project is the implementation of our peer-reviewed paper published at **IEEE DISCOVER 2025**.
+
+| | |
+|---|---|
+| **Conference** | IEEE DISCOVER 2025 |
+| **DOI** | [10.1109/DISCOVER66922.2025.11259040](https://doi.org/10.1109/DISCOVER66922.2025.11259040) |
+
+If you use this work, please cite the above paper.
+
 ---
 
 ## License
 
-This project is for academic and research use. Please cite the associated IEEE paper if you use this work.
+This project is for academic and research use.
